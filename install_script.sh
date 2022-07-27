@@ -46,3 +46,6 @@ sudo rabbitmqctl set_user_tags admin administrator
  sudo rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
 ## List permissions
 sudo rabbitmqctl list_permissions
+## Enable dashboard module
+sudo rabbitmq-plugins enable rabbitmq_management
+sudo ufw allow proto tcp from any to any port 5672,15672

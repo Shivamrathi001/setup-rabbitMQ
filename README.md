@@ -7,4 +7,4 @@ To run the script
 ### cd setup-rabbitMQ
 ### sudo chmod +x install_script.sh
 ### sudo ./install_script.sh
-### << yourip >>://5672
+### << yourip >>://15672
